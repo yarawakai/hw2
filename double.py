@@ -1,12 +1,5 @@
 def doubler(func):
 	def wrapper():
-		string = func(func())
-		print(string)
+		func()
+		func()
 	return wrapper
-
-@doubler
-def hello(name):
-	return "hello {name}"
-
-
-doubler(hello("max"))
