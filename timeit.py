@@ -1,6 +1,6 @@
 import time
 
-def calculate_time(func):
+def timeit(func):
 	def wrapper():
 		start = time.time()
 		func()
