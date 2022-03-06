@@ -10,8 +10,7 @@ def sort_list(list):
 				list[j] = tmp
 			j+=1
 		i+=1
-	return list	
+	return list
 
 
-list = [9,7,5,3,1,2,4,6,8,10]
-print(sort_list(list))
+
