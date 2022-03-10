@@ -2,8 +2,9 @@ from collections import Counter
 
 with open('document.txt') as f:
 	lines = f.read()
-	
+
 words = lines.split()
+words.sort()
 count = Counter(words)
 top5 = count.most_common(5)
 
