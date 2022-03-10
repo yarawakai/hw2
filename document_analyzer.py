@@ -8,7 +8,7 @@ words.sort()
 count = Counter(words)
 top5 = count.most_common(5)
 
-print("\n")
+print("")
 for pair in top5:
 	for item in pair:
 		item_isInt = isinstance(item, int)
