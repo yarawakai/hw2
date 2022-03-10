@@ -8,10 +8,8 @@ words.sort()
 count = Counter(words)
 top5 = count.most_common(5)
 
-
-
+print("\n")
 for pair in top5:
-	string = ''
 	for item in pair:
 		item_isInt = isinstance(item, int)
 		if(item_isInt):
@@ -19,3 +17,4 @@ for pair in top5:
 			print(string)
 		else:
 			string = item
+
