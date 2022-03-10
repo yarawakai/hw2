@@ -15,7 +15,7 @@ for pair in top5:
 	for item in pair:
 		item_isInt = isinstance(item, int)
 		if(item_isInt):
-			string = string + " : " + str(item)
+			string = string + ": " + str(item)
 			print(string)
 		else:
 			string = item
